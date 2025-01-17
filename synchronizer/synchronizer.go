@@ -685,6 +685,12 @@ func removeBlockElement(slice []etherman.Block, s int) []etherman.Block {
 func (s *ClientSynchronizer) ProcessBlockRange(blocks []etherman.Block, order map[common.Hash][]etherman.Order) error {
 	// Check the latest finalized block in L1
 	finalizedBlockNumber, err := s.etherMan.GetFinalizedBlockNumber(s.ctx)
+	finalizedBlockNumber := finalizedBlockNumber - 5
+
+	if finalizedBlockNumber < 0 {
+		finalizedBlockNumber = 0
+	}
+	
 	if err != nil {
 		log.Errorf("error getting finalized block number in L1. Error: %v", err)
 		return err
@@ -703,6 +709,9 @@ func (s *ClientSynchronizer) ProcessBlockRange(blocks []etherman.Block, order ma
 			ParentHash:  blocks[i].ParentHash,
 			ReceivedAt:  blocks[i].ReceivedAt,
 		}
+		// finalized block is latest block minus 5
+		// If the block is less or equal to the finalized block, it is checked
+
 		if blocks[i].BlockNumber <= finalizedBlockNumber {
 			b.Checked = true
 		}
