@@ -684,17 +684,19 @@ func removeBlockElement(slice []etherman.Block, s int) []etherman.Block {
 // ProcessBlockRange process the L1 events and stores the information in the db
 func (s *ClientSynchronizer) ProcessBlockRange(blocks []etherman.Block, order map[common.Hash][]etherman.Order) error {
 	// Check the latest finalized block in L1
-	finalizedBlockNumber, err := s.etherMan.GetFinalizedBlockNumber(s.ctx)
-	finalizedBlockNumber := finalizedBlockNumber - 5
-
-	if finalizedBlockNumber < 0 {
-		finalizedBlockNumber = 0
-	}
-	
+	latestBlockNumber, err := s.etherMan.GetFinalizedBlockNumber(s.ctx)
 	if err != nil {
 		log.Errorf("error getting finalized block number in L1. Error: %v", err)
 		return err
 	}
+
+	// Adjusts the finalizedBlockNumber to always be 5 blocks behind the latest block.
+	// This ensures a buffer for operations that depend on confirmed blocks.
+	finalizedBlockNumber := latestBlockNumber - 5
+	if finalizedBlockNumber < 0 {
+		finalizedBlockNumber = 0
+	}
+
 	// New info has to be included into the db using the state
 	for i := range blocks {
 		// Begin db transaction
