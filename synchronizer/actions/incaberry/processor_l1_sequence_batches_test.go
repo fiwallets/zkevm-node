@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
-	mocks "github.com/0xPolygonHermez/zkevm-node/synchronizer/mocks"
+	"github.com/fiwallets/zkevm-node/etherman"
+	mocks "github.com/fiwallets/zkevm-node/synchronizer/mocks"
 	"github.com/stretchr/testify/require"
 )
 

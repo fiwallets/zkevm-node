@@ -5,9 +5,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/actions"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/actions/processor_manager"
+	"github.com/fiwallets/zkevm-node/etherman"
+	"github.com/fiwallets/zkevm-node/synchronizer/actions"
+	"github.com/fiwallets/zkevm-node/synchronizer/actions/processor_manager"
 	"github.com/stretchr/testify/require"
 )
 

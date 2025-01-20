@@ -4,9 +4,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc/types"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/l2_sync/l2_shared"
+	"github.com/fiwallets/zkevm-node/jsonrpc/types"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/synchronizer/l2_sync/l2_shared"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

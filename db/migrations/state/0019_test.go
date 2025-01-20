@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/hex"
+	"github.com/fiwallets/zkevm-node/hex"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

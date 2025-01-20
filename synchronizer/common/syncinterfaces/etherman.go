@@ -4,7 +4,7 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
+	"github.com/fiwallets/zkevm-node/etherman"
 	"github.com/fiwallets/go-ethereum/common"
 	ethTypes "github.com/fiwallets/go-ethereum/core/types"
 )

@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"time"
 
-	ethman "github.com/0xPolygonHermez/zkevm-node/etherman"
-	"github.com/0xPolygonHermez/zkevm-node/etherman/types"
-	"github.com/0xPolygonHermez/zkevm-node/ethtxmanager"
-	"github.com/0xPolygonHermez/zkevm-node/event"
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	ethman "github.com/fiwallets/zkevm-node/etherman"
+	"github.com/fiwallets/zkevm-node/etherman/types"
+	"github.com/fiwallets/zkevm-node/ethtxmanager"
+	"github.com/fiwallets/zkevm-node/event"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/state"
 	ethTypes "github.com/fiwallets/go-ethereum/core/types"
 	"github.com/jackc/pgx/v4"
 )

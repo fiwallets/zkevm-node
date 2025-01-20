@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/common"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/common/syncinterfaces"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/synchronizer/common"
+	"github.com/fiwallets/zkevm-node/synchronizer/common/syncinterfaces"
 )
 
 // L1BlockChecker is an interface that defines the method to check L1 blocks

@@ -7,7 +7,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/db"
+	"github.com/fiwallets/zkevm-node/db"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/jackc/pgconn"
 	"github.com/jackc/pgx/v4"

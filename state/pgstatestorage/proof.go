@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/state"
 	"github.com/jackc/pgx/v4"
 )
 

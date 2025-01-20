@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/db"
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/executor"
-	"github.com/0xPolygonHermez/zkevm-node/test/testutils"
+	"github.com/fiwallets/zkevm-node/db"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/state/runtime/executor"
+	"github.com/fiwallets/zkevm-node/test/testutils"
 	"github.com/google/uuid"
 )
 

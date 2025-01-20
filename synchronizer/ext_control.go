@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/l1_parallel_sync"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/synchronizer/l1_parallel_sync"
 )
 
 const (

@@ -6,12 +6,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/db"
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
-	"github.com/0xPolygonHermez/zkevm-node/l1infotree"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/state/pgstatestorage"
-	"github.com/0xPolygonHermez/zkevm-node/test/dbutils"
+	"github.com/fiwallets/zkevm-node/db"
+	"github.com/fiwallets/zkevm-node/etherman"
+	"github.com/fiwallets/zkevm-node/l1infotree"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/state/pgstatestorage"
+	"github.com/fiwallets/zkevm-node/test/dbutils"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

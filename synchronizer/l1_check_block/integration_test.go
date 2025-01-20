@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/common/syncinterfaces"
-	mock_syncinterfaces "github.com/0xPolygonHermez/zkevm-node/synchronizer/common/syncinterfaces/mocks"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/l1_check_block"
-	mock_l1_check_block "github.com/0xPolygonHermez/zkevm-node/synchronizer/l1_check_block/mocks"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/synchronizer/common/syncinterfaces"
+	mock_syncinterfaces "github.com/fiwallets/zkevm-node/synchronizer/common/syncinterfaces/mocks"
+	"github.com/fiwallets/zkevm-node/synchronizer/l1_check_block"
+	mock_l1_check_block "github.com/fiwallets/zkevm-node/synchronizer/l1_check_block/mocks"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

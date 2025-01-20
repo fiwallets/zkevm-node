@@ -1,8 +1,8 @@
 package sequencer
 
 import (
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/state"
 )
 
 func (f *finalizer) DSSendL2Block(batchNumber uint64, blockResponse *state.ProcessBlockResponse, l1InfoTreeIndex uint32) error {

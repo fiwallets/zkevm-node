@@ -22,8 +22,8 @@ import (
 	"strconv"
 	"sync/atomic"
 
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/fakevm"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/instrumentation/tracers"
+	"github.com/fiwallets/zkevm-node/state/runtime/fakevm"
+	"github.com/fiwallets/zkevm-node/state/runtime/instrumentation/tracers"
 	"github.com/fiwallets/go-ethereum/common"
 )
 

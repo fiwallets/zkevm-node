@@ -4,9 +4,9 @@ import (
 	"context"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/state/metrics"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/executor"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/state/metrics"
+	"github.com/fiwallets/zkevm-node/state/runtime/executor"
 	"github.com/fiwallets/go-ethereum/common"
 	ethTypes "github.com/fiwallets/go-ethereum/core/types"
 	"github.com/jackc/pgx/v4"

@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/test/operations"
-	uniswap "github.com/0xPolygonHermez/zkevm-node/test/scripts/uniswap/pkg"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/test/operations"
+	uniswap "github.com/fiwallets/zkevm-node/test/scripts/uniswap/pkg"
 	"github.com/fiwallets/go-ethereum/ethclient"
 )
 

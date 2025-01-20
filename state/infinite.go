@@ -3,7 +3,7 @@ package state
 import (
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/log"
 )
 
 // InfiniteSafeRun executes a function and in case it fails,

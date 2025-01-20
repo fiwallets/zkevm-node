@@ -4,7 +4,7 @@ import (
 	"context"
 	"math/big"
 
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc/types"
+	"github.com/fiwallets/zkevm-node/jsonrpc/types"
 	"github.com/fiwallets/go-ethereum/common"
 )
 

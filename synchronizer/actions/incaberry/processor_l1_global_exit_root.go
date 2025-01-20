@@ -3,10 +3,10 @@ package incaberry
 import (
 	"context"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/actions"
+	"github.com/fiwallets/zkevm-node/etherman"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/synchronizer/actions"
 	"github.com/jackc/pgx/v4"
 )
 

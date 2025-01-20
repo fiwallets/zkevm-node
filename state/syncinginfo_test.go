@@ -5,8 +5,8 @@ import (
 	"math"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/state/mocks"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/state/mocks"
 	"github.com/stretchr/testify/require"
 )
 

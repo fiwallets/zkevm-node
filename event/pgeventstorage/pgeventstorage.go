@@ -3,9 +3,9 @@ package pgeventstorage
 import (
 	"context"
 
-	"github.com/0xPolygonHermez/zkevm-node/db"
-	"github.com/0xPolygonHermez/zkevm-node/event"
-	"github.com/0xPolygonHermez/zkevm-node/event/nileventstorage"
+	"github.com/fiwallets/zkevm-node/db"
+	"github.com/fiwallets/zkevm-node/event"
+	"github.com/fiwallets/zkevm-node/event/nileventstorage"
 	"github.com/jackc/pgx/v4/pgxpool"
 )
 

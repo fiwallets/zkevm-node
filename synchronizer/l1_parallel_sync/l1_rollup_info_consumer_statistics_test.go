@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
+	"github.com/fiwallets/zkevm-node/etherman"
 	"github.com/stretchr/testify/assert"
 )
 

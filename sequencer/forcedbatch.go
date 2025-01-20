@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	stateMetrics "github.com/0xPolygonHermez/zkevm-node/state/metrics"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/state"
+	stateMetrics "github.com/fiwallets/zkevm-node/state/metrics"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/jackc/pgx/v4"
 )

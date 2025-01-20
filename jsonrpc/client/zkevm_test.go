@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/log"
 	"github.com/stretchr/testify/require"
 )
 

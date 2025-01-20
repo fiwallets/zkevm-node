@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
+	"github.com/fiwallets/zkevm-node/etherman"
 	"github.com/fiwallets/go-ethereum/common"
 	types "github.com/fiwallets/go-ethereum/core/types"
 	"github.com/stretchr/testify/mock"

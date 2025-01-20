@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/event"
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/common/syncinterfaces"
+	"github.com/fiwallets/zkevm-node/event"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/synchronizer/common/syncinterfaces"
 )
 
 // CriticalErrorHalt is a Synchronizer halter, implements syncinterfaces.Halter

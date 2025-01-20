@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc/types"
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	syncCommon "github.com/0xPolygonHermez/zkevm-node/synchronizer/common"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/l2_sync"
+	"github.com/fiwallets/zkevm-node/jsonrpc/types"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/state"
+	syncCommon "github.com/fiwallets/zkevm-node/synchronizer/common"
+	"github.com/fiwallets/zkevm-node/synchronizer/l2_sync"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/jackc/pgx/v4"
 )

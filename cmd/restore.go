@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/0xPolygonHermez/zkevm-node/config"
-	"github.com/0xPolygonHermez/zkevm-node/db"
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/config"
+	"github.com/fiwallets/zkevm-node/db"
+	"github.com/fiwallets/zkevm-node/log"
 	pg "github.com/habx/pg-commands"
 	"github.com/urfave/cli/v2"
 )

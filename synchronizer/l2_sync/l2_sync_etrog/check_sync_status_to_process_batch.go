@@ -5,10 +5,10 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/common/syncinterfaces"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/l2_sync/l2_shared"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/synchronizer/common/syncinterfaces"
+	"github.com/fiwallets/zkevm-node/synchronizer/l2_sync/l2_shared"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/jackc/pgx/v4"
 )

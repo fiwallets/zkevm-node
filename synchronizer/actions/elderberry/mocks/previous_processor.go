@@ -5,7 +5,7 @@ package mock_elderberry
 import (
 	context "context"
 
-	etherman "github.com/0xPolygonHermez/zkevm-node/etherman"
+	etherman "github.com/fiwallets/zkevm-node/etherman"
 
 	mock "github.com/stretchr/testify/mock"
 

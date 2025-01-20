@@ -3,7 +3,7 @@
 package l1_parallel_sync
 
 import (
-	etherman "github.com/0xPolygonHermez/zkevm-node/etherman"
+	etherman "github.com/fiwallets/zkevm-node/etherman"
 	common "github.com/fiwallets/go-ethereum/common"
 
 	mock "github.com/stretchr/testify/mock"

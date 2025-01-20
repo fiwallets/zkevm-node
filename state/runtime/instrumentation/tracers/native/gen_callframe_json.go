@@ -8,7 +8,7 @@ import (
 
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/fiwallets/go-ethereum/common/hexutil"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/fakevm"
+	"github.com/fiwallets/zkevm-node/state/runtime/fakevm"
 )
 
 var _ = (*callFrameMarshaling)(nil)

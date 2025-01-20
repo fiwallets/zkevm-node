@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/config/types"
+	"github.com/fiwallets/zkevm-node/config/types"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/invopop/jsonschema"
 	"github.com/mitchellh/mapstructure"
@@ -93,7 +93,7 @@ f2_another_name=5678
 // func TestConfigWithPointer(t *testing.T) {
 // 	cli := cli.NewContext(nil, nil, nil)
 // 	generator := ConfigJsonSchemaGenerater[ConfigWithBatchDataPointer]{
-// 		repoName:                "github.com/0xPolygonHermez/zkevm-node/config/",
+// 		repoName:                "github.com/fiwallets/zkevm-node/config/",
 // 		cleanRequiredField:      true,
 // 		addCodeCommentsToSchema: true,
 // 		pathSourceCode:          "./",
@@ -108,7 +108,7 @@ f2_another_name=5678
 func TestGenerateJsonSchemaWithAEthAddressEmpty(t *testing.T) {
 	cli := cli.NewContext(nil, nil, nil)
 	generator := ConfigJsonSchemaGenerater[TestConfigWithAddress]{
-		repoName:                "github.com/0xPolygonHermez/zkevm-node/config/",
+		repoName:                "github.com/fiwallets/zkevm-node/config/",
 		cleanRequiredField:      true,
 		addCodeCommentsToSchema: true,
 		pathSourceCode:          "./",
@@ -124,7 +124,7 @@ func TestGenerateJsonSchemaWithAEthAddress(t *testing.T) {
 	cli := cli.NewContext(nil, nil, nil)
 	adr := common.HexToAddress("0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266")
 	generator := ConfigJsonSchemaGenerater[TestConfigWithAddress]{
-		repoName:                "github.com/0xPolygonHermez/zkevm-node/config/",
+		repoName:                "github.com/fiwallets/zkevm-node/config/",
 		cleanRequiredField:      true,
 		addCodeCommentsToSchema: true,
 		pathSourceCode:          "./",
@@ -143,7 +143,7 @@ func TestGenerateJsonSchemaCommentsWithDurationItem(t *testing.T) {
 	duration, err := time.ParseDuration("1m")
 	require.NoError(t, err)
 	generator := ConfigJsonSchemaGenerater[ConfigWithDurationAndAComplexArray]{
-		repoName:                "github.com/0xPolygonHermez/zkevm-node/config/",
+		repoName:                "github.com/fiwallets/zkevm-node/config/",
 		cleanRequiredField:      true,
 		addCodeCommentsToSchema: true,
 		pathSourceCode:          "./",
@@ -165,7 +165,7 @@ func TestGenerateJsonSchemaCommentsWithComplexArrays(t *testing.T) {
 	cli := cli.NewContext(nil, nil, nil)
 	PrivateKeys := []KeystoreFileConfigExample{{Path: "/pk/sequencer.keystore", Password: "testonly"}}
 	generator := ConfigJsonSchemaGenerater[ConfigWithDurationAndAComplexArray]{
-		repoName:                "github.com/0xPolygonHermez/zkevm-node/config/",
+		repoName:                "github.com/fiwallets/zkevm-node/config/",
 		cleanRequiredField:      true,
 		addCodeCommentsToSchema: true,
 		pathSourceCode:          "./",
@@ -195,7 +195,7 @@ func TestGenerateJsonSchemaCommentsWithComplexArrays(t *testing.T) {
 func TestGenerateJsonSchemaCommentsWithArrays(t *testing.T) {
 	cli := cli.NewContext(nil, nil, nil)
 	generator := ConfigJsonSchemaGenerater[ExapmleTestWithSimpleArrays]{
-		repoName:                "github.com/0xPolygonHermez/zkevm-node/config/",
+		repoName:                "github.com/fiwallets/zkevm-node/config/",
 		cleanRequiredField:      true,
 		addCodeCommentsToSchema: true,
 		pathSourceCode:          "./",
@@ -217,7 +217,7 @@ func TestGenerateJsonSchemaCommentsWithArrays(t *testing.T) {
 func TestGenerateJsonSchemaCommentsWithMultiplesLines(t *testing.T) {
 	cli := cli.NewContext(nil, nil, nil)
 	generator := ConfigJsonSchemaGenerater[MyTestConfig]{
-		repoName:                "github.com/0xPolygonHermez/zkevm-node/config/",
+		repoName:                "github.com/fiwallets/zkevm-node/config/",
 		cleanRequiredField:      true,
 		addCodeCommentsToSchema: true,
 		pathSourceCode:          "./",
@@ -372,7 +372,7 @@ func TestGenerateJsonSchemaInjectDefaultValue2stLevel(t *testing.T) {
 	generator.pathSourceCode = "../"
 	// This is a hack, we are not at root folder, then to store the comment is joining .. with reponame
 	// and doesn't find out the comment
-	generator.repoName = "github.com/0xPolygonHermez/zkevm-node/config/"
+	generator.repoName = "github.com/fiwallets/zkevm-node/config/"
 	generator.repoNameSuffix = "/config"
 	generator.defaultValues.Log.Level = "mylevel"
 	schema, err := generator.GenerateJsonSchema(cli)

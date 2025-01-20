@@ -5,7 +5,7 @@ package mock_l1_check_block
 import (
 	context "context"
 
-	l1_check_block "github.com/0xPolygonHermez/zkevm-node/synchronizer/l1_check_block"
+	l1_check_block "github.com/fiwallets/zkevm-node/synchronizer/l1_check_block"
 	mock "github.com/stretchr/testify/mock"
 )
 

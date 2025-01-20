@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/config/types"
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/config/types"
+	"github.com/fiwallets/zkevm-node/log"
 )
 
 func init() {

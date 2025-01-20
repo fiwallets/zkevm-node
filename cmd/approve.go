@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/0xPolygonHermez/zkevm-node/config"
-	"github.com/0xPolygonHermez/zkevm-node/encoding"
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/config"
+	"github.com/fiwallets/zkevm-node/encoding"
+	"github.com/fiwallets/zkevm-node/log"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/urfave/cli/v2"
 )

@@ -14,8 +14,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/hex"
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/hex"
+	"github.com/fiwallets/zkevm-node/state"
 	"github.com/fiwallets/go-ethereum/core/types"
 	"github.com/fiwallets/go-ethereum/rlp"
 	"github.com/jackc/pgx/v4"

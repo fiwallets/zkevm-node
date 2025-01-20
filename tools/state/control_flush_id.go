@@ -4,8 +4,8 @@ import (
 	"context"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/state"
 )
 
 // FlushIDController is an interface to control the flushID and ProverID

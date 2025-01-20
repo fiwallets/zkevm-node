@@ -8,7 +8,7 @@ package l2_shared
 import (
 	"fmt"
 
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/common/syncinterfaces"
+	"github.com/fiwallets/zkevm-node/synchronizer/common/syncinterfaces"
 )
 
 // DeSyncPermissionlessAndTrustedNodeError is an error type that contains the Block where is the discrepancy

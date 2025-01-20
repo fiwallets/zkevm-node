@@ -6,8 +6,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/hex"
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/hex"
+	"github.com/fiwallets/zkevm-node/state"
 	"github.com/google/uuid"
 )
 

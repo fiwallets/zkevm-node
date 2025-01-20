@@ -5,8 +5,8 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/l1_check_block"
-	mock_l1_check_block "github.com/0xPolygonHermez/zkevm-node/synchronizer/l1_check_block/mocks"
+	"github.com/fiwallets/zkevm-node/synchronizer/l1_check_block"
+	mock_l1_check_block "github.com/fiwallets/zkevm-node/synchronizer/l1_check_block/mocks"
 	"github.com/fiwallets/go-ethereum/core/types"
 	"github.com/fiwallets/go-ethereum/rpc"
 	"github.com/stretchr/testify/assert"

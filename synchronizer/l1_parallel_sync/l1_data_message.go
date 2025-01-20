@@ -14,7 +14,7 @@ package l1_parallel_sync
 import (
 	"fmt"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/log"
 )
 
 // L1SyncMessage : struct to hold L1 rollup info data package

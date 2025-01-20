@@ -3,8 +3,8 @@ package common
 import (
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc/types"
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/jsonrpc/types"
+	"github.com/fiwallets/zkevm-node/state"
 )
 
 // RpcBatchToStateBatch converts a rpc batch to a state batch

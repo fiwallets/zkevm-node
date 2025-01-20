@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"math/big"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/state"
 )
 
 // EffectiveGasPrice implements the effective gas prices calculations and checks

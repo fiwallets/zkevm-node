@@ -8,7 +8,7 @@ import (
 	pgx "github.com/jackc/pgx/v4"
 	mock "github.com/stretchr/testify/mock"
 
-	state "github.com/0xPolygonHermez/zkevm-node/state"
+	state "github.com/fiwallets/zkevm-node/state"
 
 	time "time"
 )

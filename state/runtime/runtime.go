@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/instrumentation"
+	"github.com/fiwallets/zkevm-node/state/runtime/instrumentation"
 	"github.com/fiwallets/go-ethereum/common"
 )
 

@@ -6,7 +6,7 @@ import (
 	"math/big"
 
 	"github.com/0xPolygonHermez/zkevm-data-streamer/datastreamer"
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/log"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/iden3/go-iden3-crypto/keccak256"
 	"github.com/jackc/pgx/v4"

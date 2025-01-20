@@ -3,8 +3,8 @@ package processor_manager_test
 import (
 	"context"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/actions"
+	"github.com/fiwallets/zkevm-node/etherman"
+	"github.com/fiwallets/zkevm-node/synchronizer/actions"
 	"github.com/jackc/pgx/v4"
 )
 

@@ -3,8 +3,8 @@ package synchronizer
 import (
 	"fmt"
 
-	"github.com/0xPolygonHermez/zkevm-node/config/types"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/l2_sync"
+	"github.com/fiwallets/zkevm-node/config/types"
+	"github.com/fiwallets/zkevm-node/synchronizer/l2_sync"
 )
 
 // Config represents the configuration of the synchronizer

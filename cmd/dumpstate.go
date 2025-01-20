@@ -9,10 +9,10 @@ import (
 	"os"
 	"strings"
 
-	"github.com/0xPolygonHermez/zkevm-node/config"
-	"github.com/0xPolygonHermez/zkevm-node/db"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/state/pgstatestorage"
+	"github.com/fiwallets/zkevm-node/config"
+	"github.com/fiwallets/zkevm-node/db"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/state/pgstatestorage"
 	"github.com/urfave/cli/v2"
 )
 

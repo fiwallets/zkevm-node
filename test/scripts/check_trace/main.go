@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc/client"
+	"github.com/fiwallets/zkevm-node/jsonrpc/client"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/fiwallets/go-ethereum/ethclient"
 )

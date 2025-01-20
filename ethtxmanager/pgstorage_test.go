@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/test/dbutils"
+	"github.com/fiwallets/zkevm-node/test/dbutils"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

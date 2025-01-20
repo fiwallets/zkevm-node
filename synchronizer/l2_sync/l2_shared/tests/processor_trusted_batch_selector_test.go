@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/common/syncinterfaces"
-	mock_syncinterfaces "github.com/0xPolygonHermez/zkevm-node/synchronizer/common/syncinterfaces/mocks"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/l2_sync/l2_shared"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/synchronizer/common/syncinterfaces"
+	mock_syncinterfaces "github.com/fiwallets/zkevm-node/synchronizer/common/syncinterfaces/mocks"
+	"github.com/fiwallets/zkevm-node/synchronizer/l2_sync/l2_shared"
 	"github.com/stretchr/testify/require"
 )
 

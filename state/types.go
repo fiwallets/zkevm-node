@@ -6,9 +6,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/merkletree"
-	"github.com/0xPolygonHermez/zkevm-node/state/metrics"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/instrumentation"
+	"github.com/fiwallets/zkevm-node/merkletree"
+	"github.com/fiwallets/zkevm-node/state/metrics"
+	"github.com/fiwallets/zkevm-node/state/runtime/instrumentation"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/fiwallets/go-ethereum/core/types"
 )

@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
+	"github.com/fiwallets/zkevm-node/etherman"
 	"github.com/jackc/pgx/v4"
 )
 

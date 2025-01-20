@@ -1,7 +1,7 @@
 package jsonrpc
 
 import (
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc/types"
+	"github.com/fiwallets/zkevm-node/jsonrpc/types"
 	"github.com/fiwallets/go-ethereum/common"
 )
 

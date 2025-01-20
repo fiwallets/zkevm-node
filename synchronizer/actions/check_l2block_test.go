@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/actions"
-	mock_syncinterfaces "github.com/0xPolygonHermez/zkevm-node/synchronizer/common/syncinterfaces/mocks"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/synchronizer/actions"
+	mock_syncinterfaces "github.com/fiwallets/zkevm-node/synchronizer/common/syncinterfaces/mocks"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/fiwallets/go-ethereum/core/types"
 	"github.com/stretchr/testify/assert"

@@ -3,9 +3,9 @@ package structlogger
 import (
 	"encoding/json"
 
-	"github.com/0xPolygonHermez/zkevm-node/hex"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime"
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/fakevm"
+	"github.com/fiwallets/zkevm-node/hex"
+	"github.com/fiwallets/zkevm-node/state/runtime"
+	"github.com/fiwallets/zkevm-node/state/runtime/fakevm"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/fiwallets/go-ethereum/core/types"
 )

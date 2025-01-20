@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/log"
 )
 
 const (

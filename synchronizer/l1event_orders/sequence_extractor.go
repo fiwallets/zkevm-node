@@ -1,8 +1,8 @@
 package l1event_orders
 
 import (
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/etherman"
+	"github.com/fiwallets/zkevm-node/state"
 )
 
 // GetSequenceFromL1EventOrder returns the sequence of batches of  given event

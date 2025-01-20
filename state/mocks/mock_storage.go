@@ -13,7 +13,7 @@ import (
 
 	pgx "github.com/jackc/pgx/v4"
 
-	state "github.com/0xPolygonHermez/zkevm-node/state"
+	state "github.com/fiwallets/zkevm-node/state"
 
 	time "time"
 

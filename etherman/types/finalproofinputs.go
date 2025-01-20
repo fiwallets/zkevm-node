@@ -1,6 +1,6 @@
 package types
 
-import "github.com/0xPolygonHermez/zkevm-node/aggregator/prover"
+import "github.com/fiwallets/zkevm-node/aggregator/prover"
 
 // FinalProofInputs struct
 type FinalProofInputs struct {

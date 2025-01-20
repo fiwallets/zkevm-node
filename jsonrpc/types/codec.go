@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/0xPolygonHermez/zkevm-node/encoding"
-	"github.com/0xPolygonHermez/zkevm-node/hex"
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/encoding"
+	"github.com/fiwallets/zkevm-node/hex"
+	"github.com/fiwallets/zkevm-node/state"
 	"github.com/jackc/pgx/v4"
 )
 

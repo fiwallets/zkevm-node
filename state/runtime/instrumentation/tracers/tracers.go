@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/0xPolygonHermez/zkevm-node/state/runtime/fakevm"
+	"github.com/fiwallets/zkevm-node/state/runtime/fakevm"
 	"github.com/fiwallets/go-ethereum/common"
 )
 

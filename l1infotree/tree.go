@@ -3,7 +3,7 @@ package l1infotree
 import (
 	"fmt"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/log"
 	"github.com/fiwallets/go-ethereum/common"
 )
 

@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/config/types"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/test/dbutils"
+	"github.com/fiwallets/zkevm-node/config/types"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/test/dbutils"
 	"github.com/fiwallets/go-ethereum"
 	"github.com/fiwallets/go-ethereum/common"
 	ethTypes "github.com/fiwallets/go-ethereum/core/types"

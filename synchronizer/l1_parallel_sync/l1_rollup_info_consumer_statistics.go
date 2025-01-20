@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/metrics"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/synchronizer/metrics"
 )
 
 type l1RollupInfoConsumerStatistics struct {

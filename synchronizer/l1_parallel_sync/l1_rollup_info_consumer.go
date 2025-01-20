@@ -7,10 +7,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	syncCommon "github.com/0xPolygonHermez/zkevm-node/synchronizer/common"
+	"github.com/fiwallets/zkevm-node/etherman"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/state"
+	syncCommon "github.com/fiwallets/zkevm-node/synchronizer/common"
 	"github.com/fiwallets/go-ethereum/common"
 	types "github.com/fiwallets/go-ethereum/core/types"
 )

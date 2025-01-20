@@ -7,7 +7,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc/types"
+	"github.com/fiwallets/zkevm-node/jsonrpc/types"
 )
 
 const jsonRPCVersion = "2.0"

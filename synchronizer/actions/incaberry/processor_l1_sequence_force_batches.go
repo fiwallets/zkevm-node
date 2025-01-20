@@ -4,12 +4,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/state/metrics"
-	stateMetrics "github.com/0xPolygonHermez/zkevm-node/state/metrics"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/actions"
+	"github.com/fiwallets/zkevm-node/etherman"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/state/metrics"
+	stateMetrics "github.com/fiwallets/zkevm-node/state/metrics"
+	"github.com/fiwallets/zkevm-node/synchronizer/actions"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/jackc/pgx/v4"
 )

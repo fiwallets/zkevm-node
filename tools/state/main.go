@@ -4,8 +4,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/0xPolygonHermez/zkevm-node"
-	"github.com/0xPolygonHermez/zkevm-node/config"
+	"github.com/fiwallets/zkevm-node"
+	"github.com/fiwallets/zkevm-node/config"
 	"github.com/urfave/cli/v2"
 )
 

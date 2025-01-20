@@ -1,12 +1,12 @@
 package synchronizer
 
 import (
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/actions"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/actions/elderberry"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/actions/etrog"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/actions/incaberry"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/actions/processor_manager"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/common"
+	"github.com/fiwallets/zkevm-node/synchronizer/actions"
+	"github.com/fiwallets/zkevm-node/synchronizer/actions/elderberry"
+	"github.com/fiwallets/zkevm-node/synchronizer/actions/etrog"
+	"github.com/fiwallets/zkevm-node/synchronizer/actions/incaberry"
+	"github.com/fiwallets/zkevm-node/synchronizer/actions/processor_manager"
+	"github.com/fiwallets/zkevm-node/synchronizer/common"
 )
 
 func defaultsL1EventProcessors(sync *ClientSynchronizer, l2Blockchecker *actions.CheckL2BlockHash) *processor_manager.L1EventProcessors {

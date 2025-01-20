@@ -5,7 +5,7 @@ package mock_l2_shared
 import (
 	context "context"
 
-	l2_shared "github.com/0xPolygonHermez/zkevm-node/synchronizer/l2_sync/l2_shared"
+	l2_shared "github.com/fiwallets/zkevm-node/synchronizer/l2_sync/l2_shared"
 	mock "github.com/stretchr/testify/mock"
 
 	pgx "github.com/jackc/pgx/v4"

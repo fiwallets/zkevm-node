@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/log"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/fiwallets/go-ethereum/core/types"
 )

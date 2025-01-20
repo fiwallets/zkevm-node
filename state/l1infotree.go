@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/0xPolygonHermez/zkevm-node/l1infotree"
-	"github.com/0xPolygonHermez/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/l1infotree"
+	"github.com/fiwallets/zkevm-node/log"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/jackc/pgx/v4"
 )

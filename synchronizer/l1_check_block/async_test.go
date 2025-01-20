@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/common"
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/l1_check_block"
+	"github.com/fiwallets/zkevm-node/synchronizer/common"
+	"github.com/fiwallets/zkevm-node/synchronizer/l1_check_block"
 	"github.com/stretchr/testify/require"
 )
 

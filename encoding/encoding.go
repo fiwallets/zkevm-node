@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/0xPolygonHermez/zkevm-node/hex"
+	"github.com/fiwallets/zkevm-node/hex"
 	"github.com/fiwallets/go-ethereum/common"
 )
 

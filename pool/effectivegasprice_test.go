@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/state"
 	"github.com/stretchr/testify/assert"
 )
 

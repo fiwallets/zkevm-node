@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/state/pgstatestorage"
-	"github.com/0xPolygonHermez/zkevm-node/test/dbutils"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/state/pgstatestorage"
+	"github.com/fiwallets/zkevm-node/test/dbutils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -1,7 +1,7 @@
 package sequencesender
 
 import (
-	"github.com/0xPolygonHermez/zkevm-node/config/types"
+	"github.com/fiwallets/zkevm-node/config/types"
 	"github.com/fiwallets/go-ethereum/common"
 )
 

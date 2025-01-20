@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/0xPolygonHermez/zkevm-node/hex"
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/test/operations"
+	"github.com/fiwallets/zkevm-node/hex"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/test/operations"
 	"github.com/fiwallets/go-ethereum"
 	"github.com/fiwallets/go-ethereum/accounts/abi/bind"
 	"github.com/fiwallets/go-ethereum/common"

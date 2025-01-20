@@ -10,7 +10,7 @@ import (
 
 	mock "github.com/stretchr/testify/mock"
 
-	state "github.com/0xPolygonHermez/zkevm-node/state"
+	state "github.com/fiwallets/zkevm-node/state"
 
 	types "github.com/fiwallets/go-ethereum/core/types"
 )

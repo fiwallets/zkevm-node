@@ -5,7 +5,7 @@ package mocks
 import (
 	context "context"
 
-	executor "github.com/0xPolygonHermez/zkevm-node/state/runtime/executor"
+	executor "github.com/fiwallets/zkevm-node/state/runtime/executor"
 	emptypb "google.golang.org/protobuf/types/known/emptypb"
 
 	grpc "google.golang.org/grpc"

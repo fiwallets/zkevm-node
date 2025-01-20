@@ -1,6 +1,6 @@
 package event
 
-import "github.com/0xPolygonHermez/zkevm-node/db"
+import "github.com/fiwallets/zkevm-node/db"
 
 // Config for event
 type Config struct {

@@ -3,7 +3,7 @@ package syncinterfaces
 import (
 	"context"
 
-	"github.com/0xPolygonHermez/zkevm-node/event"
+	"github.com/fiwallets/zkevm-node/event"
 )
 
 // EventLogInterface write an event to the event log database

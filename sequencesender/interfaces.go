@@ -5,9 +5,9 @@ import (
 	"math/big"
 	"time"
 
-	ethmanTypes "github.com/0xPolygonHermez/zkevm-node/etherman/types"
-	"github.com/0xPolygonHermez/zkevm-node/ethtxmanager"
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	ethmanTypes "github.com/fiwallets/zkevm-node/etherman/types"
+	"github.com/fiwallets/zkevm-node/ethtxmanager"
+	"github.com/fiwallets/zkevm-node/state"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/fiwallets/go-ethereum/core/types"
 	"github.com/jackc/pgx/v4"

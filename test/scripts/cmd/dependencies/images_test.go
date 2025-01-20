@@ -3,8 +3,8 @@ package dependencies
 import (
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/log"
-	"github.com/0xPolygonHermez/zkevm-node/test/testutils"
+	"github.com/fiwallets/zkevm-node/log"
+	"github.com/fiwallets/zkevm-node/test/testutils"
 	"github.com/spf13/afero"
 	"github.com/stretchr/testify/require"
 )

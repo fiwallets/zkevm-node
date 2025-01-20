@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/state"
 )
 
 type IterationResult struct {

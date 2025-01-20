@@ -5,7 +5,7 @@ package l1_parallel_sync
 import (
 	context "context"
 
-	state "github.com/0xPolygonHermez/zkevm-node/state"
+	state "github.com/fiwallets/zkevm-node/state"
 	mock "github.com/stretchr/testify/mock"
 )
 

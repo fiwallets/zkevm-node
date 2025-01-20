@@ -6,8 +6,8 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/pool"
-	"github.com/0xPolygonHermez/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/pool"
+	"github.com/fiwallets/zkevm-node/state"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/stretchr/testify/assert"
 )

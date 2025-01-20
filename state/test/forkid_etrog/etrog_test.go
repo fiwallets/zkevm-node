@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/0xPolygonHermez/zkevm-node/ci/vectors"
-	"github.com/0xPolygonHermez/zkevm-node/state"
-	"github.com/0xPolygonHermez/zkevm-node/state/metrics"
-	test "github.com/0xPolygonHermez/zkevm-node/state/test/forkid_common"
+	"github.com/fiwallets/zkevm-node/ci/vectors"
+	"github.com/fiwallets/zkevm-node/state"
+	"github.com/fiwallets/zkevm-node/state/metrics"
+	test "github.com/fiwallets/zkevm-node/state/test/forkid_common"
 	"github.com/fiwallets/go-ethereum/common"
 	"github.com/stretchr/testify/require"
 )

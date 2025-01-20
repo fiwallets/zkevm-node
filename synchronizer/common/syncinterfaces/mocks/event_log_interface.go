@@ -5,7 +5,7 @@ package mock_syncinterfaces
 import (
 	context "context"
 
-	event "github.com/0xPolygonHermez/zkevm-node/event"
+	event "github.com/fiwallets/zkevm-node/event"
 	mock "github.com/stretchr/testify/mock"
 )
 

@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"strings"
 
-	"github.com/0xPolygonHermez/zkevm-node/hex"
-	"github.com/0xPolygonHermez/zkevm-node/merkletree/hashdb"
+	"github.com/fiwallets/zkevm-node/hex"
+	"github.com/fiwallets/zkevm-node/merkletree/hashdb"
 	"github.com/fiwallets/go-ethereum/common"
 )
 

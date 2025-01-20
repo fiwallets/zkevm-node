@@ -3,7 +3,7 @@ package actions
 import (
 	"reflect"
 
-	"github.com/0xPolygonHermez/zkevm-node/etherman"
+	"github.com/fiwallets/zkevm-node/etherman"
 )
 
 // ProcessorBase is the base struct for all the processors, if reduces the boilerplate

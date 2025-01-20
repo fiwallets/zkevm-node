@@ -3,7 +3,7 @@ package l1_parallel_sync
 import (
 	"testing"
 
-	"github.com/0xPolygonHermez/zkevm-node/synchronizer/common"
+	"github.com/fiwallets/zkevm-node/synchronizer/common"
 	"github.com/stretchr/testify/require"
 )
 

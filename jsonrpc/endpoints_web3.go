@@ -3,8 +3,8 @@ package jsonrpc
 import (
 	"math/big"
 
-	"github.com/0xPolygonHermez/zkevm-node"
-	"github.com/0xPolygonHermez/zkevm-node/jsonrpc/types"
+	"github.com/fiwallets/zkevm-node"
+	"github.com/fiwallets/zkevm-node/jsonrpc/types"
 	"golang.org/x/crypto/sha3"
 )
 
